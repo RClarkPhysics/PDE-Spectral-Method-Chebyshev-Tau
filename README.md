@@ -14,7 +14,7 @@ the chebyshev polynomials, which form an orthogonal basis.
 
     uN(t) = SUM_{k=0 to N} u_k(t) * T(_kx)
 
-We must take advantage of the orthogonality equation:
+We take advantage of the orthogonality equation:
 
     INTEGRAL_{from -1 to +1} T_k(x)T_k'(x)dx/(1-x^2)^1/2 = c_k*pi/2, if k'=k
     the integral is 0 if k!= k'
