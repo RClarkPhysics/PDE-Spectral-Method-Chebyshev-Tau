@@ -16,7 +16,9 @@ the chebyshev polynomials, which form an orthogonal basis.
 
 We must take advantage of the orthogonality equation:
 
-    INTEGRAL_{from -1 to +1} T_k(x)T_k'(x)dx/(1-x^2)^1/2 = c_k*pi/2 if k'=k, 0 else c_k = 2 if k=0, 1 else
+    INTEGRAL_{from -1 to +1} T_k(x)T_k'(x)dx/(1-x^2)^1/2 = c_k*pi/2, if k'=k
+    the integral is 0 if k!= k'
+    c_k = 2 if k=0, 1 else
     
 Starting with the initial conditions, we multiply by  T_k(x)*(1-x^2)^1/2 and integrate both sides of the uN(t) equation:
     
