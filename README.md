@@ -37,3 +37,8 @@ C_ijk is a 3D matrix with values 1 if i+j=k or |i-j|=k, 2 if both conditions are
 
 Using scipy ODEINT, we integrate the calcualted du_k/dt terms, then add them all together according to the uN equation to get back our
 approximate solution to u(x,t)
+
+
+https://github.com/user-attachments/assets/53fa8c45-b982-4784-a6fd-0b4f4a9b6522
+
+
