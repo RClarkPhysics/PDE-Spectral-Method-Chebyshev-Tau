@@ -37,7 +37,7 @@ The boundary equation is enforced simply by (Use the last two u_k's to enforce t
 
 The remainig N-1 equations come from the Burger's equation, plugging in the UN equation, and integrating over orthogonality equation gives these equations:
 
-    du_k/dt = v*u_k^(2) - SUM_i SUM_j u_i*u_j*1/2*C_ijk
+    du_k/dt = v*u_k^(2) - SUM_i( SUM_j( u_i*u_j*1/2*C_ijk ))
 
 u_k^(2) is a special term that refers to the 2nd derivative of the u function coefficient and is easily calculated in chebyshev literature using the
 following equation:
